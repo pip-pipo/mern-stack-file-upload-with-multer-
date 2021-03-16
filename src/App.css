@@ -1,0 +1,32 @@
+.Gridmain{
+    margin: auto;
+}
+.view{
+    margin: auto;
+    width:100%;
+    display:grid;
+}
+img{
+    width:600px;
+    object-fit:cover;
+   margin:1rem 0;
+}
+
+@media screen and (max-width:768px){
+.Gridmain{
+    margin: auto;
+}
+.view{
+    margin: auto;
+    width:100%;
+    display:grid;
+}
+img{
+    width:400px;
+    object-fit:cover;
+   margin:1rem 0;
+}
+
+
+
+}
